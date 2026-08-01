@@ -23,7 +23,7 @@
         "dev": "turbo dev",
         "test": "turbo test",
         "fix": "turbo fix",
-        "change": "beachball change",
+        "bb:change": "beachball change",
         "change:check": "beachball check",
         "bump": "beachball bump",
         "release:verify": "pnpm change:check && pnpm lint-ci && pnpm test && pnpm build",

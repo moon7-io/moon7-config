@@ -14,6 +14,7 @@
         "experimentalDecorators": false,
         "isolatedModules": true,
         "lib": ["ES2022", "ESNext.Disposable", "DOM", "ScriptHost"],
+        "types": ["node"],
         "outDir": "./dist",
         "rootDir": "./src",
         "forceConsistentCasingInFileNames": true,
