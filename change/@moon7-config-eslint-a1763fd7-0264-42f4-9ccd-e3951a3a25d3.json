@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "chore: initial commit",
+  "packageName": "@moon7/config-eslint",
+  "email": "profoundseven@gmail.com",
+  "dependentChangeType": "patch"
+}
