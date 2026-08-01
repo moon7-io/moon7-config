@@ -24,10 +24,11 @@
         "test": "turbo test",
         "fix": "turbo fix",
         "change": "beachball change",
-        "check": "beachball check",
+        "change:check": "beachball check",
         "bump": "beachball bump",
-        "publish": "beachball publish -y",
-        "release": "pnpm build && pnpm publish",
+        "release:verify": "pnpm change:check && pnpm lint-ci && pnpm test && pnpm build",
+        "release:publish": "beachball publish --yes",
+        "release": "pnpm release:verify && pnpm release:publish",
         "knip": "knip",
         "knip:dependencies": "knip --dependencies",
         "knip:unimported": "knip --production --dependencies --files"
@@ -43,7 +44,16 @@
         "typescript": "^5.9.3",
         "vitest": "^3.2.4"
     },
-    "packageManager": "pnpm@9.4.0",
+    "beachball": {
+        "access": "public",
+        "bumpDeps": true,
+        "ignorePatterns": [
+            "**/node_modules/**",
+            "**/dist/**",
+            "**/.git/**"
+        ]
+    },
+    "packageManager": "pnpm@11.18.0",
     "engines": {
         "node": ">=22"
     }
