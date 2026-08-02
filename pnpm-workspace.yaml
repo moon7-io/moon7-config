@@ -1,4 +1,15 @@
 packages:
   - "packages/*"
+
 allowBuilds:
   esbuild: true
+
+registries:
+  default: https://registry.npmjs.org/
+  "@moon7": https://registry.npmjs.org/
+
+versioning:
+  changelog:
+    storage: repository
+  ignore:
+    - "@moon7/internal-*"

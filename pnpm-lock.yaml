@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@dotenvx/dotenvx':
+        specifier: ^2.19.1
+        version: 2.19.1
       '@types/node':
         specifier: ^22.18.13
         version: 22.20.1
@@ -321,6 +324,16 @@ packages:
   '@cspell/url@9.8.0':
     resolution: {integrity: sha512-LY1lFiZLTQF/ma1ilfKmRmFmEOw0RfYhyl0UMhY7/d93b+kiDMhxP/9Qir4+5LyiRncaE3++ZcWno9Hya+ssRg==}
     engines: {node: '>=20'}
+
+  '@dotenvx/dotenvx@2.19.1':
+    resolution: {integrity: sha512-OTTjLHzAm2/V7OwshVBfwe9YPKpRaeuGYS6Tq3TLu5dugmvuqtVWP4FOWud2KEnbTY8FNY6Wb4gMyDNUwfU1Uw==}
+    hasBin: true
+
+  '@dotenvx/primitives@2.1.2':
+    resolution: {integrity: sha512-d7cmVY8LA4SlgSCDyB7tOPLPpinE1959/hXEd+euUGeAK/6QBEmdD+yDOrcanbzBwwqQxpYts0ETa+W+GOgLtg==}
+
+  '@dotenvx/tooling@1.0.3':
+    resolution: {integrity: sha512-Gd6qQol/ICb4MPRWpiIH56y+pR9AVB7kPBkbhrLSGLtAiF4Qgy+k651/f2pze0Xbm3H5XewbPfIm4y9K+ic30Q==}
 
   '@emnapi/core@1.11.2':
     resolution: {integrity: sha512-TC8MkTuZUtcTSiFeuC0ksCh9QIJ5+F21MvZ4Wn4ORfYaFJ/0dsiudv5tVkejgwZlwQ39jL9WWDe2lz8x0WglOA==}
@@ -2402,6 +2415,14 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
+  yocto-spinner@1.2.2:
+    resolution: {integrity: sha512-DODGl1wJjA/s5pnJFKau9lIYHT81lnhob1i3e1TjxZRxEhWRKl74nTbWE6H5KlkViQQTo/Z29YFdxzTZAMY3ng==}
+    engines: {node: '>=18.19'}
+
+  yoctocolors@2.2.0:
+    resolution: {integrity: sha512-xYqdZFUK/VYazNl/oCDYN+3WloWQwMfZxBoiNt6qNyk+xfOdi598muWE42rNZFp1kNOiqW936q5RhUdnpqElSg==}
+    engines: {node: '>=18'}
+
   zod@4.4.3:
     resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
@@ -2636,6 +2657,16 @@ snapshots:
   '@cspell/strong-weak-map@9.8.0': {}
 
   '@cspell/url@9.8.0': {}
+
+  '@dotenvx/dotenvx@2.19.1':
+    dependencies:
+      '@dotenvx/primitives': 2.1.2
+      '@dotenvx/tooling': 1.0.3
+      yocto-spinner: 1.2.2
+
+  '@dotenvx/primitives@2.1.2': {}
+
+  '@dotenvx/tooling@1.0.3': {}
 
   '@emnapi/core@1.11.2':
     dependencies:
@@ -4873,5 +4904,11 @@ snapshots:
   yargs-parser@21.1.1: {}
 
   yocto-queue@0.1.0: {}
+
+  yocto-spinner@1.2.2:
+    dependencies:
+      yoctocolors: 2.2.0
+
+  yoctocolors@2.2.0: {}
 
   zod@4.4.3: {}
