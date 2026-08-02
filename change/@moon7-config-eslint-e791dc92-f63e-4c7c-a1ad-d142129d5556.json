@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "chore: update pnpm workspace configuration and add initial changelog for @moon7/config-eslint package",
-  "packageName": "@moon7/config-eslint",
-  "email": "profoundseven@gmail.com",
-  "dependentChangeType": "patch"
-}

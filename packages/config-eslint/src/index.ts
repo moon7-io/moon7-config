@@ -10,7 +10,7 @@ import path from "node:path";
 import type { ConfigObject } from "@eslint/core";
 
 export default defineConfig(
-    // global ignore //
+    // global ignore
     {
         ignores: [
             // formatting
