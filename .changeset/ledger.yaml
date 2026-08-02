@@ -6,8 +6,16 @@
   dir: packages/config-eslint
   intents:
     - crisp-coins-itch
+"@moon7/config-eslint@0.1.4":
+  dir: packages/config-eslint
+  intents:
+    - witty-mice-grab
 "@moon7/config-vite@0.1.0":
   dir: packages/config-vite
   intents:
     - crisp-coins-itch
     - nice-donkeys-grin
+"@moon7/config-vite@0.1.1":
+  dir: packages/config-vite
+  intents:
+    - witty-mice-grab
