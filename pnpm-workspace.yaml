@@ -13,3 +13,4 @@ versioning:
     storage: repository
   ignore:
     - "@moon7/internal-*"
+    - "@moon7/config-typescript"

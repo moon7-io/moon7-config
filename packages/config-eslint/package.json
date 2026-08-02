@@ -1,46 +1,47 @@
 {
-  "name": "@moon7/config-eslint",
-  "version": "0.1.2",
-  "author": "Munir Hussin <profoundseven@gmail.com>",
-  "contributors": [],
-  "license": "MIT",
-  "description": "todo",
-  "keywords": [
-    "todo"
-  ],
-  "type": "module",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.umd.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": "./dist/index.js",
-    "./*": "./dist/*.js"
-  },
-  "scripts": {
-    "build": "tsc"
-  },
-  "devDependencies": {
-    "@eslint/core": "^1.2.1",
-    "@eslint/js": "^9.39.0",
-    "@types/node": "^22.20.1",
-    "cspell": "^9.2.2",
-    "eslint": "^9.39.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-vue": "^10.5.1",
-    "globals": "^16.5.0",
-    "prettier": "^3.6.2",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.2",
-    "vue-eslint-parser": "^10.2.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "engines": {
-    "node": ">=22"
-  }
+    "name": "@moon7/config-eslint",
+    "version": "0.1.2",
+    "author": "Munir Hussin <profoundseven@gmail.com>",
+    "contributors": [],
+    "license": "MIT",
+    "description": "Base ESLint config for Moon7 projects",
+    "keywords": [
+        "eslint",
+        "eslint-config"
+    ],
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/index.umd.cjs",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": "./dist/index.js",
+        "./*": "./dist/*.js"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@eslint/core": "^1.2.1",
+        "@eslint/js": "^9.39.0",
+        "@types/node": "^22.20.1",
+        "cspell": "^9.2.2",
+        "eslint": "^9.39.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-vue": "^10.5.1",
+        "globals": "^16.5.0",
+        "prettier": "^3.6.2",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.46.2",
+        "vue-eslint-parser": "^10.2.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">=22"
+    }
 }

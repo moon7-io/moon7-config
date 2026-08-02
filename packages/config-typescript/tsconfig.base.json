@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Default",
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2020",
+        "moduleResolution": "Bundler",
+
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": false,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "jsxImportSource": "vue",
+        // "useDefineForClassFields": true,
+
+        // "types": ["node", "vite/client"],
+        "lib": ["ES2022", "ESNext.Disposable"],
+        "baseUrl": "${configDir}/",
+        "paths": {
+            "~/*": ["./src/*"]
+        },
+
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "${configDir}/types/**/*",
+        "${configDir}/test/**/*",
+        "${configDir}/src/**/*",
+        "${configDir}/src/**/*.vue",
+        "${configDir}/test/**/*"
+    ],
+    "exclude": ["${configDir}/node_modules", "${configDir}/dist"]
+}
