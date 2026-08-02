@@ -15,6 +15,8 @@ export default defineConfig(
             // formatting
             "dist/**",
             "public/**",
+            "coverage/**",
+            "benchmarks/**",
             "node_modules/**",
             "*.*",
             "*.*.*",
