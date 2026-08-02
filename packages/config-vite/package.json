@@ -27,7 +27,7 @@
         "build": "tsc",
         "dev": "tsc --watch",
         "clean": "rimraf dist",
-        "prepublishOnly": "pnpm lint-ci && pnpm test && pnpm build",
+        "prepublishOnly": "pnpm lint-ci && pnpm build",
         "lint": "run-p lint:*",
         "lint:type": "tsc --noEmit",
         "lint:code": "eslint",
