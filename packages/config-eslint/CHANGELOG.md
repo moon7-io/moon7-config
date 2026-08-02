@@ -1,5 +1,11 @@
 # @moon7/config-eslint
 
+## 0.1.5
+
+### Patch Changes
+
+- updated ignore list
+
 ## 0.1.4
 
 ### Patch Changes

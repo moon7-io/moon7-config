@@ -10,6 +10,10 @@
   dir: packages/config-eslint
   intents:
     - witty-mice-grab
+"@moon7/config-eslint@0.1.5":
+  dir: packages/config-eslint
+  intents:
+    - early-buckets-carry
 "@moon7/config-vite@0.1.0":
   dir: packages/config-vite
   intents:
@@ -19,3 +23,7 @@
   dir: packages/config-vite
   intents:
     - witty-mice-grab
+"@moon7/config-vite@0.1.2":
+  dir: packages/config-vite
+  intents:
+    - early-buckets-carry
