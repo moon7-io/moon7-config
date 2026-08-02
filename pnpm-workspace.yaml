@@ -4,6 +4,9 @@ packages:
 allowBuilds:
   esbuild: true
 
+minimumReleaseAgeExclude:
+  - "@moon7/*"
+
 registries:
   default: https://registry.npmjs.org/
   "@moon7": https://registry.npmjs.org/
