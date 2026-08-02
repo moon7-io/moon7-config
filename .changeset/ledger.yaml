@@ -2,3 +2,12 @@
   dir: packages/config-eslint
   intents:
     - dirty-taxis-fall
+"@moon7/config-eslint@0.1.3":
+  dir: packages/config-eslint
+  intents:
+    - crisp-coins-itch
+"@moon7/config-vite@0.1.0":
+  dir: packages/config-vite
+  intents:
+    - crisp-coins-itch
+    - nice-donkeys-grin
