@@ -12,9 +12,6 @@ export const project = {
     scope: pkg.name.includes("/") ? pkg.name.split("/")[0] : null, // @moon7
     name: pkg.name.split("/").at(-1), // signals
     version: pkg.version,
-    build: {
-        time: Date.now(),
-    },
 };
 
 export type Project = typeof project;

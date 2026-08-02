@@ -17,15 +17,12 @@ export default defineConfig({
             scope: project.scope,
             name: project.name,
             version: project.version,
-            build: project.build,
         }),
-        __SVMS__: JSON.stringify({
-            BUILD: {
-                IS_PRODUCTION: process.env.NODE_ENV === "production",
-                NODE_ENV: process.env.NODE_ENV ?? null,
-                TIMESTAMP: Date.now(),
-                VERSION: project.version,
-            },
+        __BUILD__: JSON.stringify({
+            IS_PRODUCTION: process.env.NODE_ENV === "production",
+            NODE_ENV: process.env.NODE_ENV ?? null,
+            TIMESTAMP: Date.now(),
+            VERSION: project.version,
         }),
     },
     plugins: [

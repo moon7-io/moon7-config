@@ -37,7 +37,6 @@ export default defineConfig({
             scope: project.scope,
             name: project.name,
             version: project.version,
-            build: project.build,
         }),
     },
     plugins: [

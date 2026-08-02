@@ -42,9 +42,9 @@ function getExtLength(id: string): number {
     return id.length - id.lastIndexOf(".");
 }
 
-// projectName: "@svms/lib-svms"
-// projectPath: "/home/munir/git/Ham-Let/svms-backend/svms/lib-svms"
-// id: "/home/munir/git/Ham-Let/svms-backend/svms/lib-svms/src/auth/PostgresAuthSystem.ts"
+// projectName: "@foo/bar"
+// projectPath: "/home/user/git/foo/bar"
+// id: "/home/user/git/foo/bar/src/path/to/module.ts"
 export function moduleName(projectPath: string, id: string): string {
     const normalizedPath = projectPath.replaceAll("\\", "/");
     if (!id.startsWith(normalizedPath)) {

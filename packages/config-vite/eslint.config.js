@@ -1,2 +1,2 @@
-import config from "@svms/config-eslint/vue";
+import config from "@moon7/config-eslint/vue";
 export default config;
