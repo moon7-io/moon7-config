@@ -1,0 +1,4 @@
+"@moon7/config-eslint@0.1.2":
+  dir: packages/config-eslint
+  intents:
+    - dirty-taxis-fall
