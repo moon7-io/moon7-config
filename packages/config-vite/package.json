@@ -11,7 +11,8 @@
     ],
     "type": "module",
     "files": [
-        "dist"
+        "dist",
+        "types"
     ],
     "main": "./dist/index.umd.cjs",
     "module": "./dist/index.js",
