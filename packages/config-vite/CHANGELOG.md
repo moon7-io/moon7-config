@@ -1,5 +1,11 @@
 # @moon7/config-vite
 
+## 0.1.4
+
+### Patch Changes
+
+- added peerDependencies to exernals
+
 ## 0.1.3
 
 ### Patch Changes

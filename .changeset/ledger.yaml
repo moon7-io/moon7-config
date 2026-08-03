@@ -31,3 +31,7 @@
   dir: packages/config-vite
   intents:
     - easy-mice-occur
+"@moon7/config-vite@0.1.4":
+  dir: packages/config-vite
+  intents:
+    - twenty-frogs-end
