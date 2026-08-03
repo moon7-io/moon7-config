@@ -20,7 +20,6 @@ export const externals = [
     /^disposablestack(\/.*)?$/,
     /^node:.*/,
     ...builtinModules,
-    ...Object.entries(pkg.dependencies ?? [])
-        // .filter(([key, value]) => !value.startsWith("workspace:"))
-        .map(([key, value]) => key),
+    ...Object.entries(pkg.dependencies ?? []).map(([key, value]) => key),
+    ...Object.entries(pkg.peerDependencies ?? []).map(([key, value]) => key),
 ];
