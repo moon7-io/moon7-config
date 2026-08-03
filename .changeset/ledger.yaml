@@ -27,3 +27,7 @@
   dir: packages/config-vite
   intents:
     - early-buckets-carry
+"@moon7/config-vite@0.1.3":
+  dir: packages/config-vite
+  intents:
+    - easy-mice-occur
