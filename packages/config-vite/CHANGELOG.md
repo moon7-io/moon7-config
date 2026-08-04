@@ -1,5 +1,11 @@
 # @moon7/config-vite
 
+## 0.1.5
+
+### Patch Changes
+
+- added configurable options
+
 ## 0.1.4
 
 ### Patch Changes

@@ -35,3 +35,7 @@
   dir: packages/config-vite
   intents:
     - twenty-frogs-end
+"@moon7/config-vite@0.1.5":
+  dir: packages/config-vite
+  intents:
+    - mighty-clocks-return
