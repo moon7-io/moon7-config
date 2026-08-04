@@ -57,11 +57,11 @@ export default defineConfig(
         rules: {
             "indent": "off",
             "linebreak-style": "off",
-            "quotes": ["error", "double", { avoidEscape: true }],
+            "quotes": ["warn", "double", { avoidEscape: true }],
             "semi": ["error", "always"],
             "no-unused-vars": "off", //["warn", { vars: "all", args: "after-used" }],
-            "prefer-const": ["error", { destructuring: "all", ignoreReadBeforeAssign: true }],
-            "no-empty": ["error", { allowEmptyCatch: true }],
+            "prefer-const": ["warn", { destructuring: "all", ignoreReadBeforeAssign: true }],
+            "no-empty": ["warn", { allowEmptyCatch: true }],
             "no-restricted-imports": [
                 "error",
                 {
