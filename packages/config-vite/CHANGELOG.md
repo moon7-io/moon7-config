@@ -1,5 +1,11 @@
 # @moon7/config-vite
 
+## 0.1.6
+
+### Patch Changes
+
+- fixed linter
+
 ## 0.1.5
 
 ### Patch Changes

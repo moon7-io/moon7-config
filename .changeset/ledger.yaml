@@ -18,6 +18,10 @@
   dir: packages/config-eslint
   intents:
     - silver-terms-crash
+"@moon7/config-eslint@0.1.7":
+  dir: packages/config-eslint
+  intents:
+    - open-canyons-give
 "@moon7/config-vite@0.1.0":
   dir: packages/config-vite
   intents:
@@ -43,3 +47,7 @@
   dir: packages/config-vite
   intents:
     - mighty-clocks-return
+"@moon7/config-vite@0.1.6":
+  dir: packages/config-vite
+  intents:
+    - open-canyons-give

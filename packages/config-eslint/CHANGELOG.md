@@ -1,5 +1,11 @@
 # @moon7/config-eslint
 
+## 0.1.7
+
+### Patch Changes
+
+- fixed linter
+
 ## 0.1.6
 
 ### Patch Changes
