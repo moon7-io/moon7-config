@@ -1,5 +1,11 @@
 # @moon7/config-eslint
 
+## 0.1.6
+
+### Patch Changes
+
+- updated vue lint
+
 ## 0.1.5
 
 ### Patch Changes
