@@ -31,17 +31,6 @@ export default defineConfig(
                 ...globals.es2023,
                 ...globals.node,
             },
-            parser: vueParser,
-            parserOptions: {
-                parser: tslint.parser,
-                ecmaVersion: 2023,
-                sourceType: "module",
-                extraFileExtensions: [".vue"],
-                // project: true,
-                // tsconfigRootDir: import.meta.dirname,
-                project: "./tsconfig.json",
-                // tsconfigRootDir: path.resolve(),
-            },
         },
         plugins: {
             "vue": vuePlugin,
@@ -213,9 +202,19 @@ export default defineConfig(
         },
     },
 
-    // overrides for .vue files
+    // overrides for .vue files — parser must come after tslint.configs.recommended to win
     {
         files: ["**/*.vue"],
+        languageOptions: {
+            parser: vueParser,
+            parserOptions: {
+                parser: tslint.parser,
+                ecmaVersion: 2023,
+                sourceType: "module",
+                extraFileExtensions: [".vue"],
+                project: "./tsconfig.json",
+            },
+        },
         rules: {
             "indent": "off",
             "@typescript-eslint/indent": "off",
