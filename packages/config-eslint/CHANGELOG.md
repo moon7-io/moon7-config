@@ -1,5 +1,11 @@
 # @moon7/config-eslint
 
+## 0.1.8
+
+### Patch Changes
+
+- updated parser version
+
 ## 0.1.7
 
 ### Patch Changes

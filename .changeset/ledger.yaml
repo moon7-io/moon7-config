@@ -22,6 +22,10 @@
   dir: packages/config-eslint
   intents:
     - open-canyons-give
+"@moon7/config-eslint@0.1.8":
+  dir: packages/config-eslint
+  intents:
+    - real-eels-smile
 "@moon7/config-vite@0.1.0":
   dir: packages/config-vite
   intents:
